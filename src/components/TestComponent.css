@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+
+.button-item {
+    width: 30%;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+.button-item button {
+    display: block;
+    width: 100%;
+    padding: 50px;
+    padding-top: 100px;
+    background: radial-gradient(at center, rgb(128, 12, 12), rgb(36, 10, 10));
+}
+
+button.active {
+    background: radial-gradient(at center, rgb(255, 0, 0), rgb(36, 35, 35))
+}
